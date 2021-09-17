@@ -81,5 +81,9 @@ def addName(id,name):
 def hello():
     return "Hello CI/CD World!"
 
+@server.route('/test2')
+def hello():
+    return "Hello CI/CD World2!"
+
 if __name__ == '__main__':
     server.run()
